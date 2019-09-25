@@ -1,5 +1,0 @@
-Colors:
-
-green: #93c9a2
-
-yellow: #eded5a
