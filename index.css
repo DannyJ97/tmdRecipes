@@ -1,0 +1,65 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+/*Global*/
+.container{
+
+}
+
+/*margin adjustments*/
+
+ul, h1{
+	margin: 0;
+}
+
+header{
+	background: #93c9a2;
+	min-height: 80px;
+	border-bottom: 3px solid black;
+	color: white;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:visited{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover{
+	color: #eded5a;
+	text-decoration: underline;
+}
+
+/*navigation*/
+nav ul{
+	float: left;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	margin-right: 15px ;
+}
+
+/*web name menu bar*/
+#web-name{
+	float: right;
+	font-size: 25px;
+	padding-right: 20px;
+	padding-top: 5px;  
+}
+
+span{
+	color: #eded5a;
+}
+
