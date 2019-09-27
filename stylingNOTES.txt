@@ -2,5 +2,11 @@ Colors:
 green: #93c9a2
 yellow: #eded5a
 
-Font:
+Fonts:
+//import link into head of html file if you want to use
+
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 font-family: 'Muli', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+font-family: 'Lobster', cursive;
