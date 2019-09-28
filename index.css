@@ -143,6 +143,7 @@ span{
 #motto{
 	color: #eded5a;
 	font-size: 60px;
+	text-shadow: 4px 4px black;
 }
 
 #quote{
@@ -202,10 +203,15 @@ span{
 	border: 4px solid black;
 	border-radius: 10px;
 	padding: 10px;
+	align-self: center;
+	height: 150px;
 }
 .reason h1{
 	color: white;
+	font-family: 'Lobster', sans-serif;
+	letter-spacing: 3px;
 	font-style: italic;
+	text-shadow: 4px 4px black;
 }
 .reason span{
 	font-size: 1.5em;
