@@ -1,0 +1,132 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+h1, q{
+	margin: 0;
+	padding: 0;
+}
+
+#heading{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+#heading h1{
+	width: 100%;
+	padding-bottom: 15px;
+	font-size: 4em;
+	color: white;
+	background-color: #eded5a;
+	text-shadow: 4px 4px black;
+}
+
+#heading p{
+	padding: 10px;
+	font-size: 2em;
+}
+
+.recipe{
+	width: 60%;
+	min-height: 600px;
+	margin: auto;
+	margin-bottom: 50px;
+	border: 10px solid #93c9a2;
+	border-radius: 10px;
+	display: flex;
+	background: #93c9a2;
+}
+
+.recipe-img{
+	flex-basis: 50%;
+}
+
+.recipe-info{
+	flex-basis: 50%;
+	background: #93c9a2;
+	text-align: center;
+	align-self: center;
+}
+
+#lavender-honey-latte .recipe-img{
+	background: url("images/lavenderlatte.jpg");
+	background-size: cover;
+	filter: blur(3px);
+}
+
+#iced-vanilla-latte .recipe-img{
+	/*Photo by Nathan Dumlao on Unsplash*/
+	background: url("images/vanillalatte.jpg");
+	background-size: cover;
+	filter: blur(3px);
+}
+
+#iced-vanilla-latte:hover .recipe-img, #lavender-honey-latte:hover .recipe-img{
+	filter: blur(0px);
+	transition: .5s;
+}
+
+.recipe-info h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	letter-spacing: 3px;
+	color: white;
+	text-shadow: 4px 4px black;
+	padding: 10px;
+
+}
+
+.recipe-info p{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+button {
+	margin-top: 10px; 
+    font-size: 1.5vw;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    margin-bottom: auto;
+}
+/*Animation for button*/
+button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+  
+button a:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    bottom: 0px;
+    top: 0;
+    transform: rotate(90deg);
+    transition: 0.5s;
+}
+  
+button:hover a {
+    padding-right: 25px;
+  }
+  
+button:hover a:after {
+    opacity: 1;
+    right: 0;
+  }
+button:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+button a:visited{
+	color: black;
+	text-decoration: none;
+}
