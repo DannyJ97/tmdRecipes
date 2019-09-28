@@ -25,6 +25,7 @@ h1, q{
 #heading p{
 	padding: 10px;
 	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .recipe{
@@ -64,6 +65,11 @@ h1, q{
 
 #iced-vanilla-latte:hover .recipe-img, #lavender-honey-latte:hover .recipe-img{
 	filter: blur(0px);
+	transition: .5s;
+}
+
+.recipe:hover {
+	transform: scale(1.05);
 	transition: .5s;
 }
 
