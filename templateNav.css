@@ -14,7 +14,7 @@ body{
 
 /*margin adjustments*/
 
-ul, h1{
+ul, h1, p{
 	margin: 0;
 }
 
@@ -22,7 +22,7 @@ header{
 	background: #93c9a2;
 	min-height: 80px;
 	border-bottom: 3px solid black;
-	color: #ffffff;
+	color: white;
 }
 
 /*Navigation bar*/
@@ -31,7 +31,7 @@ nav{
 	padding: 10px;
 	float: left;
 	text-align: center;
-	color: #ffffff;
+	color:white;
 }
 
 .menu-item{
@@ -39,17 +39,18 @@ nav{
 	margin: 7px;
 	font-size: 20px;
 	font-weight: bold;
-	color: #ffffff;
+	color: white;
 	text-decoration: none;
 }
 
 .menu-item:hover {
 	color: #eded5a;
 	text-decoration: underline;
+	transition: .5s;
 }
 
-.menu-item:visited{
-	color: #ffffff;
+.menu-item: visited{
+	color: white;
 	text-decoration: none;
 }
 
@@ -72,6 +73,11 @@ nav{
 	text-decoration: none;
 }
 
+#dd-items a{
+	color: black;
+	text-decoration: none;
+}
+
 #dd-items a:visited{
 	color: black;
 	text-decoration: none;
@@ -88,6 +94,7 @@ nav{
 
 #dd-items a:hover{
 	background-color: #eded5a;
+	transition: .5s;
 }
 
 /*web name menu bar*/
@@ -96,13 +103,17 @@ nav{
 	font-size: 25px;
 	padding-right: 40px;
 	padding-top: 5px;  
-	color: #ffffff;
+	color: white;
 	text-decoration: none;
 	font-family: 'Lobster', cursive;
 	transition: transform .5s;
 }
-#web-name h1 a:visited{
-	color: #ffffff;
+#web-name a{
+	color: white;
+}
+
+#web-name a:visited{
+	color: white;
 	text-decoration: none;
 }
 
