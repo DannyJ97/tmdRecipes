@@ -3,45 +3,65 @@
     <head>
         <title>TDM | Breakfast</title>
         <link rel="stylesheet" href="breakfast.css">
+        <link rel="stylesheet" href="templateNav.css">
 
         <!--Google web-font-->
 	    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     </head>
     <body>
-	    <header>
-		<div class="container">
-			<div id="web-name">
-				<h1><a href="index.html">tdm<span>Recipes</span></a></h1>
-			</div>
-			
-			<nav>
-				<div id="dropdown">
-					<a href="#" class="menu-item">Recipes</a>
-					<div id="dd-items">
-						<a href="#">Breakfast</a>
-						<a href="#">Lunch</a>
-						<a href="#">Dinner</a>
-					</div>
-				</div>
-			</nav>
-
-		</div>
-		
-	</header>
-	    
-        <div class="container">
-            <div id="header">
-                <img src="green-bg.png" alt="Green background Image">
+        <!--Standard Header-->
+        <header>
+                <div class="container">
+                    <div id="web-name">
+                        <h1><a href="templateNav.html">tdm<span>Recipes</span></a></h1>
+                    </div>
+                    
+                    <nav>
+                        <div id="dropdown">
+                            <a href="#" class="menu-item">Recipes</a>
+                            <div id="dd-items">
+                                <a href="breakfast.html">Breakfast</a>
+                                <a href="#">Lunch</a>
+                                <a href="#">Dinner</a>
+                            </div>
+                        </div>
+                    </nav>
+        
+                </div>
+                
+        </header>
+        <!--Big container holds subheading for specific page and other divs for recipes-->
+        <div class="sub-container">
+            <div id="subheader">
                 <h1>BREAKFAST</h1>
             </div>
             <div id="recipe">
                 <img src="pancakes.jpg" alt="pancakes">
+                <div id="recipe-title">
+                    <h2>Fluffy Buttermilk Pancakes</h2>
+                    <p>Time: 22 mins</p>
+                    <button><span>Recipe</span></button>
+                    
+                </div>
             </div>
             <div id="recipe">
-                <img src="pancakes.jpg" alt="pancakes">
+                <img src="yogurt-parfait.jpg" alt="Yogurt Parfait">
+                <div id="recipe-title">
+                        <h2>Yogurt Parfait</h2>
+                        <h3>with Granola, Yogurt, and Fruit</h3>
+                        <p>Time: 10 mins</p>
+                        <button><span>Recipe</span></button>
+                        
+                    </div>
             </div>
             <div id="recipe">
-                <img src="pancakes.jpg" alt="pancakes">
+                <img src="omelette.jpg" alt="Omelette">
+                <div id="recipe-title">
+                        <h2>The Perfect Omelette</h2>
+                        <p>Time: 10 mins</p>
+                        <button><span>Recipe</span></button>
+                        
+                    </div>
             </div>
 
             
