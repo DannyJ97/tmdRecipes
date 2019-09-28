@@ -1,0 +1,115 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+/*Global*/
+.container{
+	margin: auto;
+}
+
+/*margin adjustments*/
+
+ul, h1{
+	margin: 0;
+}
+
+header{
+	background: #93c9a2;
+	min-height: 80px;
+	border-bottom: 3px solid black;
+	color: #ffffff;
+}
+
+/*Navigation bar*/
+nav{
+	margin-top: 15px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+}
+
+.menu-item{
+	padding: 20px;
+	margin: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu-item:hover {
+	color: #eded5a;
+	text-decoration: underline;
+}
+
+.menu-item:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+#dd-items{
+	border: 1px solid gray;
+	display: none;
+	padding: 10px;
+	margin: 0;
+}
+
+#dd-items a {
+	padding: 10px;
+	display: block;
+	border: 1px solid gray;
+	text-decoration: none;
+}
+
+#dd-items a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+#dropdown:hover #dd-items{ 
+	margin-top: 10px;
+	margin-left: 2px;
+	position: absolute;
+	left: 5px;
+	display: block;
+	background: white;
+ }
+
+#dd-items a:hover{
+	background-color: #eded5a;
+}
+
+/*web name menu bar*/
+#web-name{
+	float: right;
+	font-size: 25px;
+	padding-right: 40px;
+	padding-top: 5px;  
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	transition: transform .5s;
+}
+#web-name h1 a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#web-name:hover{
+	transform: scale(1.2);
+}
+
+span{
+	color: #eded5a;
+}
