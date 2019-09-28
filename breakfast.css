@@ -6,6 +6,10 @@ body{
     font-family: 'Muli', sans-serif;
     background-color: rgb(248, 248, 248);
 }
+#dropdown{
+    /*Places dropdown menue in front of everything else */
+    z-index: 9999;
+}
 .sub-container{
     margin: 10px;
     width: 100%;
